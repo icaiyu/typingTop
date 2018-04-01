@@ -1,0 +1,151 @@
+abstract     (关键字) 抽象 ['æbstrækt]  
+access               vt.访问,存取 ['ækses]
+algorithm            n.算法 ['ælgәriðm]  
+Annotation   [java]  代码注释 [ænә u'teiʃәn]  
+anonymous            adj.匿名的[ә'nɒnimәs]'  
+apply                v.应用,适用 [ә 'plai]  
+application          n.应用,应用程序 [,æpli'keiʃәn]
+arbitrary            a.任意的 ['ɑ:bitrәri]  
+argument             n.参数;争论,论据 ['ɑ:gjumәnt]
+assert       (关键字) 断言 [ә'sә:t]
+associate            n.关联(同伴,伙伴) [ә'sәuʃieit]  
+attribute            n.属性(品质,特征) [ә'tribju:t]  
+boolean      (关键字) 逻辑的, 布尔型 
+call                 n.v.调用; 呼叫; [kɒ:l]  
+circumstance         n.事件(环境,状况)  ['sә:kәmstәns] 
+crash                n.崩溃,破碎 [kræʃ]  
+cohesion             内聚,黏聚,结合 [kәu'hi:ʒәn] 
+command              n. 命令,指令 [kә'mɑ:nd](指挥, 控制)
+Comments     [java]  文本注释 ['kɒments]  
+compile      [java]  v.编译 [kәm'pail]'  
+Compilation   n.编辑[,kɒmpi'leiʃәn] 
+const        (保留字)  
+constant     n. 常量, 常数, 恒量 ['kɒnstәnt] 
+continue     (关键字)  
+coupling             耦合,联结 ['kʌpliŋ]                       
+declare      [java]  声明 [di'klєә]  
+default      (关键字) 默认值; 缺省值 [di'fɒ:lt]  
+delimiter            定义符; 定界符 
+Encapsulation [java]  封装 (hiding implementation details)  
+Exception    [java]  例外; 异常 [ik'sepʃәn] 
+entry            n.登录项, 输入项, 条目['entri] 
+enum         (关键字)  
+execute              vt.执行 ['eksikju:t]  
+exhibit              v.显示, 陈列 [ig'zibit] 
+exist                存在, 发生 [ig'zist] '(SQL关键字 exists)  
+extends      (关键字) 继承、扩展 [ik'stend]  
+false        (关键字)  
+final        (关键字) 
+finally (关键字)  
+fragments            段落; 代码块 ['frægmәnt]   
+FrameWork    [java]  结构,框架 ['freimwә:k]  
+Generic      [java]  泛型  [dʒi'nerik]  
+goto         (保留字) 跳转 
+heap                 n.堆 [hi:p]  
+implements   (关键字) 实现 ['implimәnt]  
+import       (关键字) 引入(进口,输入)  
+Info                 n.信息 (information [,infә'meiʃәn] )  
+Inheritance  [java]  继承 [in'heritәns] (遗传,遗产)  
+initialize           预置 初始化 [i'niʃәlaiz]  
+instanceof   (关键字) 运算符, 用于引用变量, 以检查这个对象是否是某种类型。返回 
+boolean       值 
+interface    (关键字) 接口 ['intәfeis]  
+invoke               vt.调用 [in'vәuk]
+Iterator     [java]  迭代器, 迭代程序 
+legal                合法的 ['li:gәl]
+log                  n.日志,记录 [lɒg] 
+native       (关键字)  ['neitiv]  
+nested       [java]  嵌套的 ['nestid] 
+Object       [java]  对象 ['ɒbdʒekt]  
+Overload     [java]  方法的重载(不同参数列表的同名方法) [,әuvә'lәud]  
+Override     [java]  方法的覆盖(覆盖父类的方法) [,әuvә'raid]  
+polymiorphism   [java]  多态 (polymorphism 多形性[,pɒli'mɒ:fizm])                       
+principle            n.原则,原理,主义 ['prinsipl] 
+priority             n. 优先级 [prai'ɒriti] 
+process              n. 程序, 进程 ['prɒses] 
+protected    (关键字) 受保护的,私有的 [prә'tektid]  
+provide              v.规定(供应,准备,预防)[prә'vaid]  
+refer to             v.引用 [ri'fә:][tu:] 
+reference            n. 参考(引用,涉及)['refәrәns]
+Reflection   [java]  反射 [ri'flekʃәn]  
+script               n.手写体,小型程序 [skript]  
+serialized           vt.序列化,串行化 ['siәriәlaiz]
+Socket       [java]  网络套接字['sɒkit]  
+stack                n.堆栈 [stæk] (对应 heap 堆)  
+statement            程序语句; 语句 ['steitmәnt]' n. 陈述,指令 
+subclass             n.子类 ['sʌbklɑ:s]' (supertype 父类)  
+switch       (关键字) 选择语句。 n.开关,道岔 [switʃ] 
+synchronized  (关键字) 同步(锁) ['siŋkrәnaiz]  
+Thread       [java]  线程 [θ red]  
+throw        (关键字) 
+throws  (关键字) [θrәu] 抛出(异常)  
+transient    (关键字) 瞬变;临时的['trænziәnt]'(可序列化)  
+valid                正确的,有效的 ['vælid]   
+variable             n.变量 a.可变的['vєәriәbl]  
+volatile     (关键字) 不稳定的['vɒlәtail]  
+while        (关键字) 循环语句。 当...的时候 [hwail] 
+isLetter       判断是不是字母 
+isDigit       判断是不是数字 
+isWhiteSpace       判断是不是空格 
+isUpperCase       判断是不是大写 
+isLowerCase       判断是不是小写
+equals       比较对象中值是否相等 
+length       返回字符串长度 
+CompareTo       比较相同索引位置上字符的 ASCII 
+StartsWith   判断是否以...开头 
+endsWith       判断是否以...结尾 
+toUpperCase       将所有小写转为大写 
+toLowerCase       将所有大些转为小写 
+trim       截掉空格 
+indexOf       搜索某个字符在字符串中是否存在 
+LastIndexOf       从后往前搜索第一次遇到字符的索引 
+CharAt        根据下标找字符 
+subString      截取 
+concat        连结
+append       追加 
+setcharAt       将下表对应的字符更改为某个字符 
+insert       插入字符 
+reverse       倒置, 反置 
+replace       替换 
+toString       返回当前对象的字符串表现形式 
+static       静态
+getClass       获得类的描述信息
+getSuperClass       获得父类的描述信息 
+forName       java 与 sql 建立连接时使用 
+Date.gettime   获得毫秒数 
+get       获得时间组成部分 
+add       加上时间组成部分 
+set       修改时间组成部分 
+DAY_OF_YEAR   这一年的第几天 
+DAY_OF_MONTH   这一月的第几天 
+DAY_OF_WEEK    这一周的第几天 
+size       测试容量 
+get       获得集合框架中的数据 
+add       向集合框架中添加数据 
+set       修改集合框架中的数据 
+isEmpty       判断集合框架是否为空 
+indexof       搜索内容 
+remove       删除 
+clear       清空
+removeFirst       删除第一个元素 
+removeLast       删除最后一个元素 
+addFirst       添加第一个元素 
+addLast       添加最后一个元素
+addElement       添加 
+removeElement       删除 
+put       添加方法 
+get       查询数据 
+remove       删除数据 
+length       测试文件容量 
+exists       判断文件是否存在 
+CreateNewFile       创建新文件 
+delete       删除原文件 
+getAbsolutePath       获得文件的绝对路径 
+FileOutputStream       输出流 
+FileInputStream       输入流
+FileReader  读文件 
+FileWriter  写文件 
+BufferedReader    缓冲读取流 
+Readline       配合 BufferedReader 一起使用 
+write       写 
+newLine       换行 

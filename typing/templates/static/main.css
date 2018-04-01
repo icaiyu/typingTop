@@ -1,0 +1,419 @@
+/*background: #FFCCCC;*/
+
+body{
+	background: #CCFFFF;
+}
+#center { margin: 0 auto;} 
+footer{
+	
+}
+
+section{
+	margin-top: 50px;
+}
+
+main{
+	padding-top: 20px;
+	background: #FFCCCC;
+}
+
+
+
+#timerBox{
+	margin: auto 0;
+	margin-top: 10px;
+}
+
+.main-layout {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: 0px;
+  margin-right: 0px;
+  background: #FFCCCC;
+}
+.main-layout #main-content,
+.main-layout .main-content {
+  /*background: #fff;*/
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+
+.container.span.flag {
+  display: block;
+  float: left;
+  background: black;
+  width: 32px;
+  height: 25px;
+  margin: 5px;
+  margin-right: 15px;
+  margin-top: 1px;
+  background: url('https://img.10fastfingers.com/img/layout/language-sprite.png');
+}
+
+
+#speedtest-main {
+  /* wird verwendet, wenn user das aktuelle Wort falsch abtippt */
+}
+#speedtest-main #words {
+  padding: 6px 12px 30px 12px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  height: 210px;
+  overflow: hidden;
+  color: #1d4851;
+  font-family: Times New Roman, Times, serif;
+  font-size: 2.2em;
+  line-height: 1.6em;
+  /*30px; line-height: 48px;*/
+  background: #ffffff;
+  background: #FFCCCC;
+  border: 1px solid #CC3333;/*#8eb6d8;*/
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#speedtest-main #wordboard {
+  position: relative;
+  background: #FFCCCC;
+  color: #111111;
+}
+#speedtest-main #wordboard span {
+  padding: 3px 5px 3px 5px;
+  margin-right: -7px;
+}
+#speedtest-main #input-row {
+  margin-top: :5px;
+  padding:4px;
+  /*background: #CCFFFF;*/
+  background: #FFCCCC;
+  /*#92b6d9;*/
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+#speedtest-main #input-row #inputfield {
+  border-top: 1px solid #575757;
+  height: 50px;
+  border-right: 1px solid #CC3333;/*#6b7a89;
+  border-bottom: 1px solid #70869b;
+  border-left: 1px solid #525a62;*/
+  /*font-size: 2.0em;*/
+  line-height: 1.0em;
+  background: url('https://img.10fastfingers.com/img/layout/sprite-main.png') 0px -60px no-repeat;
+  font-family: Times New Roman, Times, serif;
+  color: #333;
+}
+#speedtest-main #input-row #timer {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  height: 50px;
+  text-align: center;
+  font-size: 1.6em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: white;
+  background: #3c4d5c;
+}
+#speedtest-main .hide-time {
+  color: #3c4d5c !important;
+}
+#speedtest-main #reload-btn {
+  height: 50px;
+}
+#speedtest-main .highlight {
+  background: #dddddd;
+  color: #000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#speedtest-main .highlight-wrong {
+  background: red;
+}
+#speedtest-main .correct {
+  color: green;
+}
+#speedtest-main .wrong {
+  color: red;
+  /*text-decoration:line-through;*/
+}
+#speedtest-main #inputstream {
+  display: none;
+}
+#speedtest-main #wordlist {
+  display: none;
+}
+
+
+
+
+body,html {
+ color:#505050;
+ line-height:1.75em;
+ background:#ebebeb;
+ position:relative;
+ font-family:"Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei","Microsoft YaHei UI","Microsoft YaHei",sans-serif
+}
+h1,h2,h3,h4,h5,h6 {
+ font-weight:400;
+ color:#303030
+}
+h1 {
+ font-size:3em
+}
+h2 {
+ font-size:2.5em
+}
+h3 {
+ font-size:2em
+}
+h4 {
+ font-size:1.5em
+}
+h5 {
+ font-size:1em
+}
+h6 {
+ font-size:.75em
+}
+a {
+ color:#f4645f;
+ outline:0
+}
+a:hover {
+ color:#f4645f
+}
+a img,a:active,a:focus {
+ outline:0
+}
+
+input[type=email],input[type=search],input[type=text],input[type=url],textarea {
+ padding:7px 7px;
+ border:1px solid #ebebeb;
+ border-radius:2px;
+ -webkit-transition:all .2s;
+ -o-transition:all .2s;
+ transition:all .2s
+}
+input[type=email]:focus,input[type=search]:focus,input[type=text]:focus,input[type=url]:focus,textarea:focus {
+ border:1px solid #f4645f;
+ outline:0
+}
+blockquote {
+ border-left:4px solid #f4645f
+}
+pre {
+ padding:0;
+ background:0 0;
+ border:none
+}
+::-moz-selection {
+ color:#fff;
+ background:#f4645f;
+ text-shadow:none
+}
+::selection {
+ color:#fff;
+ background:#f4645f;
+ text-shadow:none
+}
+
+
+.main-navigation {
+ text-align:center;
+ background:#fff;
+ border-top:1px solid #ebebeb;
+ margin-bottom:35px;
+ border-bottom:2px solid #e1e1e1
+}
+.main-navigation .menu {
+ padding:0;
+ margin:0
+}
+.main-navigation .menu li {
+ list-style:none;
+ display:inline-block;
+ position:relative
+}
+.main-navigation .menu li.nav-current {
+ border-bottom:2px solid #f4645f;
+ margin-bottom:-2px
+}
+.main-navigation .menu li.red-dot:after {
+ content:'';
+ display:block;
+ background:red;
+ border-radius:50%;
+ width:.6em;
+ height:.6em;
+ top:30%;
+ right:11px;
+ position:absolute
+}
+.main-navigation .menu li a {
+ color:#505050;
+ line-height:4em;
+ display:block;
+ padding:0 21px
+}
+.main-navigation .menu li:hover>a {
+ color:#f4645f;
+ text-decoration:none
+}
+.main-navigation .menu li ul {
+ visibility:hidden;
+ background:#fff;
+ text-align:left;
+ padding:7px 0;
+ margin:0;
+ position:absolute;
+ left:0;
+ top:120%;
+ width:200px;
+ z-index:999;
+ opacity:0;
+ -webkit-transition:all .2s ease;
+ -o-transition:all .2s ease;
+ transition:all .2s ease
+}
+.main-navigation .menu li ul li {
+ display:block;
+ margin:0
+}
+.main-navigation .menu li ul li a {
+ line-height:2.5em;
+ color:#505050
+}
+.main-navigation .menu li ul:hover>a {
+ color:#f4645f
+}
+.main-navigation .menu li:hover ul {
+ visibility:visible;
+ opacity:1;
+ top:100%
+}
+
+.about-author {
+ background:#fff;
+ padding:35px;
+ margin-bottom:35px
+}
+.about-author .avatar {
+ width:100px;
+ height:100px;
+ border-radius:50%
+}
+.about-author .details {
+ margin-left:114px
+}
+.about-author .author {
+ font-size:1.5em;
+ margin-bottom:7px
+}
+.about-author .author a:hover {
+ text-decoration:none
+}
+.about-author .meta-info {
+ color:#959595;
+ margin-bottom:7px
+}
+.about-author .meta-info span {
+ margin-right:14px;
+ white-space:nowrap
+}
+.about-author .meta-info span i {
+ margin-right:7px
+}
+.prev-next-wrap {
+ margin-bottom:35px;
+ text-align:center
+}
+
+.sidebar .widget {
+ background:#fff;
+ padding:21px 30px
+}
+.main-footer .widget {
+ padding:100 300px;
+ color: #959595;
+}
+.widget {
+ margin-bottom:35px
+}
+.widget .title {
+ margin-top:0;
+ padding-bottom:7px;
+ border-bottom:1px solid #ebebeb;
+ margin-bottom:21px;
+ position:relative
+}
+.widget .title:after {
+ content:"";
+ width:90px;
+ height:1px;
+ background:#f4645f;
+ position:absolute;
+ left:0;
+ bottom:-1px
+}
+.main-footer {
+ background:#202020;
+ padding:35px 0 0;
+ margin-top: 200px;
+ color:#959595
+}
+.main-footer .widget .title {
+ color:#fff;
+ border-bottom:1px solid #303030
+}
+.main-footer .widget .tag-cloud a {
+ border:1px solid #303030
+}
+.main-footer .widget .tag-cloud a:hover {
+ border:1px solid #f4645f
+}
+.main-footer .widget .friend-links a {
+ border:none
+}
+.main-footer .widget .friend-links a:hover {
+ border:none
+}
+.main-footer .widget .friend-links hr {
+ margin:1em 0;
+ border-top:1px dashed #303030
+}
+
+.copyright {
+ background:#111;
+ font-size:13px;
+ text-align:center;
+ color:#555;
+ padding-top:28px;
+ padding-bottom:28px;
+ border-top:1px solid #303030
+}
+.copyright span {
+ margin:0 .5em
+}
+.copyright a {
+ color:#555
+}
+#back-to-top {
+ position:fixed;
+ right:10px;
+ bottom:10px;
+ background:rgba(244,100,95,.6);
+ color:#fff;
+ text-align:center;
+ border-radius:2px;
+ z-index:1;
+ display:none
+}

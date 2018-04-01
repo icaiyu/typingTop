@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang=zh-CN>
+<head>
+	<meta charset=utf-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge">
+	<title>简单的打字网站</title>
+	<meta name=description content="一个提高打字速度的网站">
+	<meta name=keywords content="打字,码字,敲键盘,键盘,WPM,编程,文字">
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="/static/main.css"/>
+	<link href="/static/bootstrap.min.css" rel="stylesheet">
+
+
+	
+    <script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?78063f4feff5b6e9822b2c5ca09ca6ca";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+</script>
+</head>
+<body class=home-template>
+
+
+	<nav class="navbar navbar-default">
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">编程词汇<span class="caret"></span></a>
+              <ul id="programme" class="dropdown-menu" onclick="">
+                <li id="java"><a href="#">Java</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">四级词汇<span class="caret"></span></a>
+              <ul id="CET4" class="dropdown-menu" >
+                <li id="all"><a href="#" >全部</a></li>
+                <li role="separator" class="divider"></li>
+                <li id="A"><a href="#">A 开头</a></li>
+                <li id="B"><a href="#">B 开头</a></li>
+                <li id="C"><a href="#">C 开头</a></li>
+                <li id="D"><a href="#">D 开头</a></li>
+                <li id="E"><a href="#">E 开头</a></li>
+                <li id="F"><a href="#">F 开头</a></li>
+                <li id="GH"><a href="#">G,H 开头</a></li>
+                <li id="I"><a href="#">I 开头</a></li>
+                <li id="JKL"><a href="#">J,k,L 开头</a></li>
+                <li id="M"><a href="#">M 开头</a></li>
+                <li id="NO"><a href="#">N,O 开头</a></li>
+                <li id="P"><a href="#">P 开头</a></li>
+                <li id="QR"><a href="#">Q,R 开头</a></li>
+                <li id="S"><a href="#">S 开头</a></li>
+                <li id="T"><a href="#">T 开头</a></li>
+                <li id="UVWXYZ"><a href="#">U-Z 开头</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">六级词汇<span class="caret"></span></a>
+              <ul id=CET6 class="dropdown-menu" >
+                <li id="all"><a href="#" >全部</a></li>
+                <li role="separator" class="divider"></li>
+                <li id="A"><a href="#">A 开头</a></li>
+                <li id="B"><a href="#">B 开头</a></li>
+                <li id="C"><a href="#">C 开头</a></li>
+                <li id="D"><a href="#">D 开头</a></li>
+                <li id="E"><a href="#">E 开头</a></li>
+                <li id="F"><a href="#">F 开头</a></li>
+                <li id="GH"><a href="#">G,H 开头</a></li>
+                <li id="I"><a href="#">I 开头</a></li>
+                <li id="JKL"><a href="#">J,k,L 开头</a></li>
+                <li id="M"><a href="#">M 开头</a></li>
+                <li id="NO"><a href="#">N,O 开头</a></li>
+                <li id="P"><a href="#">P 开头</a></li>
+                <li id="QR"><a href="#">Q,R 开头</a></li>
+                <li id="S"><a href="#">S 开头</a></li>
+                <li id="T"><a href="#">T 开头</a></li>
+                <li id="UVWXYZ"><a href="#">U-Z 开头</a></li>
+              </ul>
+            </li>
+            	<li id="toefl"><a href="#contact">托福词汇</a></li>
+            	<li id="linux"><a href="#contact">Linux指令</a></li>
+             	<li><a href="#footer">About</a></li>
+            
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+
+	<section class="container">
+			<main class="col-md-8"> 
+						<div class="row main-layout"> <!-- speedtest-main -->
+						    <div class="col-md-10 col-md-offset-1" id="speedtest-main">
+						      	<div id="words" class="row">
+						      		<div id="wordboard"></div>
+						      	</div>
+						      
+						      	
+								<div id="input-row" class="row">
+									
+									<input type="text" class="form-control" id="inputfield" value="" dir="ltr" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+								
+									<div id="timerBox">
+										<div style="width: 70px; float: left; margin-right: 7px; cursor: pointer; cursor: hand;" id="timer" class="" title="click to show/hide countdown">1:00</div>
+
+										<div style="width: 50px; float: left; /*margin-top: -5px;*/ display:block;">
+											<button type="button" class="btn btn-primary btn-lg" id="reload-btn"><span class="glyphicon glyphicon-refresh"></span></button>
+										</div>
+								  		
+									</div>
+								</div>
+						    </div>
+						</div><!-- speedtest-main -->
+			</main>
+			
+			<aside class="col-md-4 sidebar">
+				<div class="widget"><h4 class="title">成绩</h4>
+				
+				<div class="content"><p id="wpm">WPM:</p><p id="error">Error:</p><p id="kpm">KPM:</p><hr></div>
+				</div>
+
+
+			</aside>
+	</section>
+	<footer class="main-footer"> <a name="footer"/>
+		<br/>
+		<div class=container>
+			<div class=row>
+				<div class=col-sm-8>
+					<div class=widget>
+						<h4 class=title>关于本站</h4>
+						<div class="content">
+							本网站致力于帮助程序员，学生，文字工作者提高打字速度。<br/>
+							如果您觉得打字速度能够对您的职业生涯有所帮助， 那么，本站将很荣幸能为您服务。<br/>
+							No big deal, just typing!
+						</div>
+					</div>
+				</div>
+
+
+				<div class=col-sm-4>
+					<div class=widget>
+						<h4 class=title>友链</h4>
+						<div class="content tag-cloud friend-links">
+							<a href=http://www.bootcss.com title="Bootstrap 中文网" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'bootcsscom'])" target=_blank>Bootstrap中文网</a> 
+							
+							<a href=https://10fastfingers.com/typing-test/english/ title="10fastfingers" onclick="_hmt.push(['_trackEvent', 'link', 'click', 'rollup'])" target=_blank>10fastfingers</a><hr>
+							<a href=http://lier.space/ title=又拍云 onclick="_hmt.push(['_trackEvent', 'link', 'click', 'upyun'])" target=_blank>个人博客</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class=copyright>
+		<div class=container>
+			<div class=row>
+				<div class=col-sm-12>
+					<span>Copyright &copy; <a href=# > CY 2018</a></span> | <span><a href=#/ target=_blank>Designed by CY </a></span> | <span>Programmed by CY</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="/static/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/static/myType.js"></script>
+ 
+</body>
+</html>
