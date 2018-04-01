@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'p2d2cn63be%(#wk3a-9!axjf#%fi&w)q)g^43yjroufk6!6g_^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*',]
 
@@ -123,4 +123,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'typing/templates/static'),]  #这里添加了一行
-STATIC_ROOT =os.path.join(BASE_DIR,"typing/templates/static/")
+STATIC_ROOT =os.path.join(BASE_DIR,"static/")
