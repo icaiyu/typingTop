@@ -12,10 +12,6 @@ section{
 	margin-top: 50px;
 }
 
-main{
-	padding-top: 20px;
-	background: #FFCCCC;
-}
 
 
 
@@ -24,8 +20,13 @@ main{
 	margin-top: 10px;
 }
 
+.finger{
+  background: #FFFFFF;
+  padding-top: 40px;
+  padding-bottom: 30px; 
+}
 .main-layout {
-  padding-top: 10px;
+  padding-top: 40px;
   padding-bottom: 30px;
   margin: 0px;
   margin-right: 0px;

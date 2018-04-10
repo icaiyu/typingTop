@@ -1,31 +1,32 @@
 /*background: #FFCCCC;*/
 
 body{
-	background: #CCFFFF;
+  background: #CCFFFF;
 }
 #center { margin: 0 auto;} 
 footer{
-	
+  
 }
 
 section{
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
-main{
-	padding-top: 20px;
-	background: #FFCCCC;
-}
 
 
 
 #timerBox{
-	margin: auto 0;
-	margin-top: 10px;
+  margin: auto 0;
+  margin-top: 10px;
 }
 
+.finger{
+  background: #FFFFFF;
+  padding-top: 40px;
+  padding-bottom: 30px; 
+}
 .main-layout {
-  padding-top: 10px;
+  padding-top: 40px;
   padding-bottom: 30px;
   margin: 0px;
   margin-right: 0px;
